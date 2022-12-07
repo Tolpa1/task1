@@ -1,9 +1,14 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class depart  {
     int id ;
     String name;
-   String code;
+    String code;
+
+
 
     public depart(){
 
@@ -35,6 +40,23 @@ public class depart  {
     public String getCode(){
         return code;
     }
+    public void print_d(){
+        System.out.println(id);
+        System.out.println(name);
+        System.out.println(code);
+
+    }
+    public void array(){
+        List<String> Emp=new ArrayList<String>();
+        Emp.add("ahmed");
+        Emp.add("mohamed");
+        Emp.add("sasa");
+        System.out.println(Emp);
+        Emp.remove(1);
+        System.out.println(Emp);
+
+    }
+
 
 
 }
