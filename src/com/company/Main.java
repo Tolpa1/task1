@@ -10,15 +10,18 @@ public class Main {
         String EMP ;
 
 
-        depart d1 =new depart(20,"ahmed","Html");
-
-        depart d2 =new depart();
-        d2.array();
-        d1.print_d();
+        depart d1 =new depart(10,"tolpa","html");
+        System.out.println(d1.toString());
 
         System.out.println("   ");
-        empolyee e1=new empolyee(20,2000,"sasa");
-        e1.print();
+        empolyee e1=new empolyee(20,"ahmed",323);
+        System.out.println(e1.toString());
+
+
+        depart d2 =new depart();
+        System.out.println(" ");
+        d1.array();
+
 
     }
 

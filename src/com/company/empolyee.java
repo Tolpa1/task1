@@ -7,34 +7,22 @@ public class empolyee {
     String name;
     double salary;
 
-    // depart d1;
+    public String toString(){
+        return id+" "+ name+" " +salary ;
+    }
 
+    // depart d1;
 
     depart d1=new depart(20,"tolpa","HTML");
 
 
-
-
-
-    public void print(){
-        System.out.println(id);
-        System.out.println(name);
-        System.out.println(salary);
+    public empolyee(int id, String name, double salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
     }
 
 
-
-
-
-
-
-
-
-    public empolyee(int i ,double s ,String n){
-        id=i;
-        salary=s;
-        name=n;
-    }
 
     public void setId(int i ){
         id=i;
@@ -54,6 +42,8 @@ public class empolyee {
     public double getSalary(){
         return salary;
     }
+
+
 
 
 
